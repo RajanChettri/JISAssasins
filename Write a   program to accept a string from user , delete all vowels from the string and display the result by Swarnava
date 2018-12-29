@@ -1,0 +1,8 @@
+string=input("Enter a string: ")
+array=[]
+for i in string:
+    # print(i)
+    if i not in "aeiouAEIOU":
+        array.append(i)
+        
+print("".join(array))
